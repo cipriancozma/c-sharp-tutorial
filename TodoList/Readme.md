@@ -27,3 +27,7 @@ Issues caused by procedural programming:
 Abstraction means that classes expose only essential data and methods and hide the underlying details.
 
 
+## Encapsulation
+
+Bundling data with methods that operate on this data (in a single class).
+
