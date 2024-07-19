@@ -1,0 +1,15 @@
+D:\TodoList\ReverseName\bin\Debug\net8.0\ReverseName.exe
+D:\TodoList\ReverseName\bin\Debug\net8.0\ReverseName.deps.json
+D:\TodoList\ReverseName\bin\Debug\net8.0\ReverseName.runtimeconfig.json
+D:\TodoList\ReverseName\bin\Debug\net8.0\ReverseName.dll
+D:\TodoList\ReverseName\bin\Debug\net8.0\ReverseName.pdb
+D:\TodoList\ReverseName\obj\Debug\net8.0\ReverseName.GeneratedMSBuildEditorConfig.editorconfig
+D:\TodoList\ReverseName\obj\Debug\net8.0\ReverseName.AssemblyInfoInputs.cache
+D:\TodoList\ReverseName\obj\Debug\net8.0\ReverseName.AssemblyInfo.cs
+D:\TodoList\ReverseName\obj\Debug\net8.0\ReverseName.csproj.CoreCompileInputs.cache
+D:\TodoList\ReverseName\obj\Debug\net8.0\ReverseName.sourcelink.json
+D:\TodoList\ReverseName\obj\Debug\net8.0\ReverseName.dll
+D:\TodoList\ReverseName\obj\Debug\net8.0\refint\ReverseName.dll
+D:\TodoList\ReverseName\obj\Debug\net8.0\ReverseName.pdb
+D:\TodoList\ReverseName\obj\Debug\net8.0\ReverseName.genruntimeconfig.cache
+D:\TodoList\ReverseName\obj\Debug\net8.0\ref\ReverseName.dll
