@@ -8,7 +8,7 @@ var operators = new[] { "+", "-", "/", "%", "*", "=" };
 
 while (true)
 {
-    if(isFirstRun)
+    if (isFirstRun)
     {
         WriteLine("Enter number: ");
         var firstInput = ReadLine();
@@ -16,7 +16,7 @@ while (true)
         if (!double.TryParse(firstInput, out firstNumber))
         {
             WriteLine("Invalid number!");
-            continue;   
+            continue;
         }
     }
 
@@ -25,7 +25,7 @@ while (true)
     WriteLine("Enter second number: ");
     var secondInput = ReadLine();
 
-    if(!double.TryParse(secondInput, out double secondNumber))
+    if (!double.TryParse(secondInput, out double secondNumber))
     {
         WriteLine("Invalid number!");
         continue;
@@ -36,21 +36,48 @@ while (true)
     WriteLine($"Enter operator: ({string.Join(",", operators)})");
     var mathOperator = ReadLine();
 
-    if(!isOperatorValid(mathOperator))
+    if (!isOperatorValid(mathOperator))
     {
         WriteLine("Invalid operator!");
         continue;
     }
+
+    var result = Calculate(mathOperator, firstNumber, secondNumber);
+    WriteLine($"Result of {firstNumber} {mathOperator} {secondNumber} is: {result}");
+
+    firstNumber = result;
+    isFirstRun = false;
 }
 
 bool isOperatorValid(string mathOperator)
 {
     foreach (var op in operators)
-    {   
+    {
         if (op.Equals(mathOperator))
         {
             return true;
         }
     }
     return false;
+}
+
+double Calculate(string mathOperator, double firstNumber, double secondNumber)
+{
+    switch (mathOperator)
+    {
+        case "+":
+            return firstNumber + secondNumber;
+        case "-":
+            return firstNumber - secondNumber;
+        case "*":
+            return firstNumber * secondNumber;
+        case "/":
+            return firstNumber / secondNumber;
+        case "%":
+            return firstNumber % secondNumber;
+        case "=":
+            return firstNumber;
+        default:
+            return 0;
+    }
 }
