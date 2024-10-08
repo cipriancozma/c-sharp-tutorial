@@ -59,7 +59,93 @@ class Program {
 }
 ```
 
-Here, the internal workings of add_fuel and drive are abstracted away. Users of the Car class do not need to know how these methods work internally._
+Here, the internal workings of add_fuel and drive are abstracted away. Users of the Car class do not need to know how these methods work internally.
+
+## Inheritance
+
+Inheritance is a mechanism where a new class is derived from an existing class. The new class inherits properties and behaviours from the existing class.
+
+```
+using System;
+
+public class Vehicle {
+	protected string Brand { get; set }
+
+	public Vehicle(string brand) {
+		Brand = brand;
+	}
+
+	public void StartEngine() {
+		Console.WriteLine($"The {Brand} vehicle's engine is starting.")
+	}
+}
+
+public class Car: Vehicle {
+	public Car(string brand) : base(brand) { }
+
+	public void Drive() {
+		Console.WriteLine($"The {Brand} car is being driven.")
+	}
+}
+
+class Program {
+	static void Main(string[] args) {
+		Car myCar = new Car("Toyota");
+		myCar.StartEngine(); // inherited method
+		myCar.Drive(); // car-specific method
+	}
+}
+
+```
+
+Here, Car inherits from Vehicle, gaining its properties and methods.
+
+## Polymorphism
+
+Polymorphism allows objects of different classes to be treated as objects of a common base class. If often involves method overriding.
+
+```
+using System;
+using System.Collections.Generic;
+
+public abstract class Animal {
+	public abstract string Speak();
+}
+
+public class Dog: Animal {
+	public override string Speak() {
+		return "Woof";
+	}
+}
+
+public class Cat: Animal {
+	public override string Speak() {
+		return "Meow";
+	}
+}
+
+public class Cow: Animal {
+	public override string Speak() {
+		return "Mooo";
+	}
+}
+
+class Program {
+	static void Main(string[] args) {
+		List<Animal> animals = new List<Animal> 
+		{
+			new Dog(),
+			new Cat(),
+			new Cow()
+		};
+
+		foreach(Animal animal in animals) {
+			Console.WriteLine(animal.speak());
+		}
+	}
+}
+```
+
 
 ## Encapsulation
 
