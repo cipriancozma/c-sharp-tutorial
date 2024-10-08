@@ -26,6 +26,11 @@ Issues caused by procedural programming:
 
 Abstraction means that classes expose only essential data and methods and hide the underlying details.
 
+This is a process of hiding complex implementation details and showing only the necessary features of an object. It helps in reducing programming complexity and effort.
+
+Example:
+Consider a car. As a driver, you don't need to know how the engine works internally. You just need to know how to use the steering wheel, pedals and gears. This is abstraction.
+
 
 ## Encapsulation
 
