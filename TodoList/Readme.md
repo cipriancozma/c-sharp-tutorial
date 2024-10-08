@@ -31,7 +31,7 @@ This is a process of hiding complex implementation details and showing only the 
 Example:
 Consider a car. As a driver, you don't need to know how the engine works internally. You just need to know how to use the steering wheel, pedals and gears. This is abstraction.
 
-`
+```
 using System;
 
 public class Car {
@@ -57,7 +57,7 @@ class Program {
 		myCar.Drive();
 	}
 }
-`
+```
 
 Here, the internal workings of add_fuel and drive are abstracted away. Users of the Car class do not need to know how these methods work internally._
 
