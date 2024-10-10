@@ -10,6 +10,20 @@ The most important skill for a programmer is the ability to find solutions for i
 
 Because it is checked at compile time if we use the correct types.
 
+## C# vs .NET
+
+C# is the programming language and .NET is a set of libraries.
+
+## .NET vs .NET Framework vs .NET Standard vs .NET Core
+
+.NET is the newest version of the library
+
+.NET Framework are the versions at the beginning of the library.
+
+.NET Standard is the link between .NET Framework and .NET/.NET Core (e.g. the link between old and new)
+
+.NET Core are the versions before .NET
+
 ## Procedural Programming
 
 Programming based on procedures named methods. It can lead to an antipattern named spaghetti code. 
@@ -146,8 +160,56 @@ class Program {
 }
 ```
 
+Here, each animal class implements its own version of the speak method. We can treat all of them as Animal objects and call speak, getting different results based on the actual type of animal.
+
 
 ## Encapsulation
 
 Bundling data with methods that operate on this data (in a single class).
+
+Encapsulation is the bundling of data and the methods that operate on that data within a single unit (like a class). It restricts direct access to some of an object's components which is a means of preventing accidental interference and misuse of the methods and data.
+
+```
+using System;
+
+public class BankAccount {
+	private decimal balance;
+
+	public bool Deposit(decimal amount) {
+		if(amount > 0) {
+			balance += amount;
+			return true;
+		}
+
+		return false;
+	}
+}
+
+public bool Withdraw(decimal amount) {
+	if(amount > 0 && amount <= balance) {
+		balance -= amount;
+		return true;
+	}
+	return false;
+}
+
+public decimal GetBalance() {
+	return balance;
+}
+
+class Program {
+	static void Main(string[] args) {
+		BankAccount account = new BankAccount();
+		account.Deposit(300);
+		account.Withdraw(50);
+		Console.WriteLine(account.GetBalance()); // Outputs: 50
+		// Console.WriteLine(account.balance); // this will cause a compilation error
+	}
+}
+
+```
+
+## Methods overloading
+
+It refers to adding a duplicate method on the same class but changing the parameters of the method.
 
