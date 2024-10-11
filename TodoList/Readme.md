@@ -24,6 +24,10 @@ C# is the programming language and .NET is a set of libraries.
 
 .NET Core are the versions before .NET
 
+## How the C# code is compiled? 
+
+C# Code -> Intermediate Language (Assembly - dll files) -> Machine Code
+
 ## Procedural Programming
 
 Programming based on procedures named methods. It can lead to an antipattern named spaghetti code. 
