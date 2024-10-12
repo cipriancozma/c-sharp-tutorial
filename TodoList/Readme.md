@@ -28,6 +28,14 @@ C# is the programming language and .NET is a set of libraries.
 
 C# Code -> Intermediate Language (Assembly - dll files) -> Machine Code
 
+## What are the differences between int and long?
+
+Int is a 32 bit signed integer and long is 64 bit signed integer.
+
+## What are the diffences between float, double and decimal?
+
+It is about memory, float is 4 bit of memory, double is 8 bit of memory and decimal 16 bit of memory.
+
 ## Procedural Programming
 
 Programming based on procedures named methods. It can lead to an antipattern named spaghetti code. 
