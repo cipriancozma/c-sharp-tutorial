@@ -1,0 +1,15 @@
+G:\Apps\c-sharp-tutorial\OOP_2\bin\Debug\net8.0\OOP_2.exe
+G:\Apps\c-sharp-tutorial\OOP_2\bin\Debug\net8.0\OOP_2.deps.json
+G:\Apps\c-sharp-tutorial\OOP_2\bin\Debug\net8.0\OOP_2.runtimeconfig.json
+G:\Apps\c-sharp-tutorial\OOP_2\bin\Debug\net8.0\OOP_2.dll
+G:\Apps\c-sharp-tutorial\OOP_2\bin\Debug\net8.0\OOP_2.pdb
+G:\Apps\c-sharp-tutorial\OOP_2\obj\Debug\net8.0\OOP_2.GeneratedMSBuildEditorConfig.editorconfig
+G:\Apps\c-sharp-tutorial\OOP_2\obj\Debug\net8.0\OOP_2.AssemblyInfoInputs.cache
+G:\Apps\c-sharp-tutorial\OOP_2\obj\Debug\net8.0\OOP_2.AssemblyInfo.cs
+G:\Apps\c-sharp-tutorial\OOP_2\obj\Debug\net8.0\OOP_2.csproj.CoreCompileInputs.cache
+G:\Apps\c-sharp-tutorial\OOP_2\obj\Debug\net8.0\OOP_2.sourcelink.json
+G:\Apps\c-sharp-tutorial\OOP_2\obj\Debug\net8.0\OOP_2.dll
+G:\Apps\c-sharp-tutorial\OOP_2\obj\Debug\net8.0\refint\OOP_2.dll
+G:\Apps\c-sharp-tutorial\OOP_2\obj\Debug\net8.0\OOP_2.pdb
+G:\Apps\c-sharp-tutorial\OOP_2\obj\Debug\net8.0\OOP_2.genruntimeconfig.cache
+G:\Apps\c-sharp-tutorial\OOP_2\obj\Debug\net8.0\ref\OOP_2.dll

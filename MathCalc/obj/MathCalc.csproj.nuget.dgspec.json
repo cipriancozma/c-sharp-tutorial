@@ -1,34 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "D:\\TodoList\\MathCalc\\MathCalc.csproj": {}
+    "G:\\Apps\\c-sharp-tutorial\\MathCalc\\MathCalc.csproj": {}
   },
   "projects": {
-    "D:\\TodoList\\MathCalc\\MathCalc.csproj": {
+    "G:\\Apps\\c-sharp-tutorial\\MathCalc\\MathCalc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\TodoList\\MathCalc\\MathCalc.csproj",
+        "projectUniqueName": "G:\\Apps\\c-sharp-tutorial\\MathCalc\\MathCalc.csproj",
         "projectName": "MathCalc",
-        "projectPath": "D:\\TodoList\\MathCalc\\MathCalc.csproj",
-        "packagesPath": "C:\\Users\\ccozma\\.nuget\\packages\\",
-        "outputPath": "D:\\TodoList\\MathCalc\\obj\\",
+        "projectPath": "G:\\Apps\\c-sharp-tutorial\\MathCalc\\MathCalc.csproj",
+        "packagesPath": "C:\\Users\\cozma\\.nuget\\packages\\",
+        "outputPath": "G:\\Apps\\c-sharp-tutorial\\MathCalc\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ccozma\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\cozma\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -67,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

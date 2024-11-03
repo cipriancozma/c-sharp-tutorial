@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ReverseName
-build_property.ProjectDir = D:\TodoList\ReverseName\
+build_property.ProjectDir = G:\Apps\c-sharp-tutorial\ReverseName\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
